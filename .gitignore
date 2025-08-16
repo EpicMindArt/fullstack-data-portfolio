@@ -47,6 +47,7 @@ share/python-wheels/
 venv/
 env/
 .env
+.devcontainer/
 
 # --- Global Environment Files ---
 # Ignore local environment files. Example files should be versioned.
