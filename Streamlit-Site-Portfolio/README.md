@@ -2,10 +2,6 @@
 
 A lightweight, extensible, and multilingual portfolio website engine built with Streamlit. It supports navigation by skills/projects, search, tagging, content localization, secure asset handling, and Python-based renderers for interactive demos.
 
-**Live Demo:** [https://your-demo-url.example.com](https://your-demo-url.example.com/)
-
-![Project Screenshot](https://user-images.githubusercontent.com/12345/your-screenshot.png) 
-*(Replace this with an actual screenshot of your project)*
 
 ---
 
