@@ -1,0 +1,31 @@
+site: 
+  site_name: "Портфоліо: Олексій Я." 
+  tagline: "Дані • Автоматизація • Боти" 
+  author: "" 
+  nickname: "Олексій Я."
+
+ui:
+  language: "Мова"
+  navigation: "Навігація"
+  category: "Категорія"
+  all_categories: "Усі"
+  search: "Пошук за навичками та тегами..."
+  tags: "Теги"
+  select_skill: "Оберіть навичку"
+  summary: "Загальний огляд усіх навичок"
+  my_skills: "Навички"
+  view_details: "Подивитися деталі" 
+  completed_orders: "Виконані замовлення" 
+  tech_stack: "Технології" 
+  demo: "Демо" 
+  repo: "Репозиторій" 
+  галерея: "Галерея" 
+  video: "Відео"
+
+
+categories:
+  telegram_bots: "Телеграм боти"
+  automation: "Автоматизація"
+  data_analytics: "Аналітика даних"
+  development: "Розробка" 
+  web_scraping: "Вилучення даних із сайтів"

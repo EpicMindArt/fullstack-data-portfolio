@@ -1,0 +1,17 @@
+name: 
+  en: "n8n Business Process Automation"
+  ru: "n8n Автоматизация бизнес-процессов"
+  ua: "n8n Автоматизація бізнес-процесів"
+category: "automation"
+summary: 
+  en: "Connecting your services (APIs, databases, messengers) into a single automated workflow. Self-hosted setup for full data privacy.ㅤㅤㅤㅤㅤㅤㅤㅤ"
+  ru: "Соединяю ваши сервисы (API, базы данных, мессенджеры) в единый автоматизированный процесс. Установка на ваш сервер для полной приватности данных."
+  ua: "З'єдную ваші сервіси (API, бази даних, месенджери) в єдиний автоматизований процес. Встановлення на ваш сервер для повної приватності даних.ㅤㅤ"
+tags: ["automation", "n8n", "workflow", "api integration", "devops", "supabase", "airtable"]
+tech_stack: ["n8n", "Docker", "REST API", "Webhook", "PostgreSQL", "Supabase", "Airtable"]
+order: 2
+hero_image: ""
+gallery: []
+video: ""
+demo_url: ""
+repo_url: "https://github.com/your_github/data-analytics-examples"

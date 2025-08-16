@@ -1,0 +1,53 @@
+About Dataset
+Employee Salary Dataset
+This is a synthetic dataset generated for educational and machine learning purposes. It is designed for salary prediction as a regression problem and includes realistic employee attributes with logically consistent relationships between features such as education level, job title, experience, and salary.
+
+🧾 Dataset Summary
+Rows: 10,000
+Target Variable: Salary or use column as per your choice
+Use Case: Regression, EDA, feature engineering, model evaluation, fairness analysis
+📌 Features
+Column	Type	Description
+Employee_ID	Integer	Unique identifier for each employee
+Name	String	Full name (gender-aware generation)
+Gender	Categorical	Male or Female
+Age	Integer	Age of the employee (based on education level and job title)
+Education_Level	Categorical	One of: High School, Bachelor, Master, PhD
+Experience_Years	Integer	Number of years of professional experience
+Department	Categorical	Business unit, e.g., HR, Engineering, Marketing, etc.
+Job_Title	Categorical	Role of the employee, e.g., Analyst, Engineer, Manager, etc.
+Location	Categorical	Work location (e.g., New York, San Francisco, etc.)
+Salary	Integer	Annual salary in USD (target for regression)
+✅ Characteristics
+All entries are complete with no missing values.
+The data reflects realistic correlations:
+Higher education → Higher job levels → Higher salaries
+Interns are younger with low salaries
+PhDs are older and placed in senior positions
+Salary distributions are varied across departments and locations.
+🎯 Applications
+This dataset is excellent for:
+
+Linear and nonlinear regression models
+Feature importance & engineering
+Categorical encoding techniques
+Hyperparameter tuning
+Fairness and bias detection (e.g., gender-based wage gaps)
+Visualization and EDA practice
+
+
+-----------------------------------------------------------------------------------------
+
+My Questions:
+1. Is there a gender pay gap after accounting for role, location, experience and education?
+2. In which departments/roles/locations is the gender gap greatest and most concentrated?
+3. What budget is needed to close the gender gap to an acceptable range (e.g. ±2%)?
+4. Where are we paying above/below the expected level given the role, experience, education and location (mispricing pockets)?
+5. What are the recommended offer forks (p25–p50–p75) for the role×location×seniority clusters to hit the market and not create compression?
+6. Is there salary compression within roles (experience is poorly monetized)?
+7. Is the pay delta between managers and IC (Analyst/Engineer) within a department and location sufficient?
+8. What are the location bonuses by role/seniority and what is the budgetary impact of staff redistribution scenarios?
+9. What is the current payroll and scenario cost: universal indexation at X% and bring-to-median by cluster?
+10. What is the salary increment based on education level (Master/PhD) for the same role, experience and location? Is it consistent across departments?
+11. Where is female representation below the company average and/or below the target range?
+12. Where are there extreme payment anomalies (above/below cluster band) that create retention/compliance risk?

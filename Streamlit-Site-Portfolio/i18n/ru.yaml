@@ -1,0 +1,32 @@
+site:
+  site_name: "Портфолио: Алексей Я."
+  tagline: "Данные • Автоматизация • Боты"
+  author: ""
+  nickname: "Алексей Я." 
+
+ui:
+  language: "Язык"
+  navigation: "Навигация"
+  category: "Категория"
+  all_categories: "Все категории"
+  search: "Поиск по названию и тегам..."
+  tags: "Теги"
+  select_skill: "Выберите навык"
+  summary: "Общий обзор всех навыков"
+  my_skills: "Мои навыки"
+  view_details: "Посмотреть детали"
+  completed_orders: "Выполненные заказы"
+  tech_stack: "Технологии"
+  demo: "Демо"
+  repo: "Репозиторий"
+  gallery: "Галерея"
+  video: "Видео"
+
+categories:
+  development: "Разработка"
+  automation: "n8n Автоматизация"
+  analytics: "Аналитика данных"
+  media: "Медиа"
+  misc: "Разное"
+  telegram_bots: "Телеграм боты"
+  web_scraping: "Извлечение данных из сайтов"

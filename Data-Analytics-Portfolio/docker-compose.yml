@@ -1,0 +1,18 @@
+services:
+  portfolio:
+    # Build the image from the Dockerfile in the current directory
+    build: .
+    # Give the container a consistent name
+    container_name: data-analytics-app
+    # Keep stdin open for an interactive session
+    stdin_open: true
+    # Allocate a pseudo-TTY
+    tty: true
+    # Mount volumes to sync files between your machine and the container
+    volumes:
+      # Syncs output files from the container back to your machine
+      - ./output:/app/output
+      # Allows you to modify config without rebuilding the image
+      - ./config.yaml:/app/config.yaml
+      # Allows you to add new data files without rebuilding
+      - ./data:/app/data

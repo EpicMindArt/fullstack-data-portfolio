@@ -1,0 +1,14 @@
+services:
+  scraper:
+    # Build the image from the Dockerfile in the current directory
+    build: .
+    # Give the container a consistent name
+    container_name: web-scraper-app
+    # Keep stdin open for an interactive session
+    stdin_open: true
+    # Allocate a pseudo-TTY
+    tty: true
+    # Mount the entire project directory into the container
+    # This allows you to edit configs and see outputs without rebuilding
+    volumes:
+      - ./:/app

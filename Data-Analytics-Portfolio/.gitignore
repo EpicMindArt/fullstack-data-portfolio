@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-selfcheck.json
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and results
+logs/
+*.log
+#*.csv
+
+# IDE settings
+# .vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Other
+.trash/

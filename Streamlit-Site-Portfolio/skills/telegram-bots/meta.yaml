@@ -1,0 +1,17 @@
+name: 
+  en: "Telegram Bots"
+  ru: "Телеграм Боты"
+  ua: "Телеграм Боти"
+category: "telegram_bots"
+summary: 
+  en: "From simple command bots to complex conversational systems with FSM, API integrations, and payment processing. Production-ready solutions."
+  ru: "От простых командных ботов до сложных диалоговых систем с FSM, интеграциями по API и приемом платежей. Готовые к работе решения."
+  ua: "Від простих командних ботів до складних діалогових систем з FSM, інтеграціями по API та прийомом платежів. Готові до роботи рішення."
+tags: ["telegram", "bots", "aiogram", "fsm", "api integration"]
+tech_stack: ["Python", "Aiogram 3", "PostgreSQL/SQLite", "aiohttp", "Docker"]
+order: 2
+hero_image: ""
+gallery: []
+video: ""
+demo_url: ""
+repo_url: "https://github.com/your_github/data-analytics-examples"

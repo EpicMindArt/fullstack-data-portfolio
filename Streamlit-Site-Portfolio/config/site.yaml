@@ -1,0 +1,39 @@
+email: ""
+social:
+  github: "https://github.com/your_github"
+  linkedin: ""
+  telegram: ""
+
+features:
+  use_sidebar_nav: true
+  default_skill: "summary"
+  developer_mode: false
+  marketplace_mode: true
+  show_summary_in_category: false
+
+branding:
+  page_icon: "💼"
+  hero_image: ""
+
+i18n:
+  default: "en"
+  languages:
+    - code: "en"
+      label: "English"
+      flag: "us"
+    - code: "ru"
+      label: "Русский"
+      flag: "ru"
+    - code: "ua"
+      label: "Українська"
+      flag: "ua"
+# You can add other languages too
+
+resources:
+  resume_pdf: "data/resume.pdf" 
+
+search:
+  tag_aliases:
+    scraping: "web-scraping"
+    parser: "web-scraping"
+    pandas: "data-analytics"

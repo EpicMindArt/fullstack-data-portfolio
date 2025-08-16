@@ -1,0 +1,17 @@
+name: 
+  en: "End-to-End Data Analysis Pipeline"
+  ru: "Сквозной конвейер анализа данных"
+  ua: "Наскрізний конвеєр аналізу даних"
+category: "analytics"
+summary: 
+  en: "A configurable CLI framework for executing reproducible data analysis, from automated EDA to deep-dive analysis answering specific business questions."
+  ru: "Конфигурируемый CLI-фреймворк для воспроизводимого анализа данных: от автоматического EDA до глубокого анализа для ответа на конкретные бизнес-вопросы."
+  ua: "Конфігурований CLI-фреймворк для відтворюваного аналізу даних: від автоматичного EDA до глибокого аналізу для відповіді на конкретні бізнес-питання."
+tags: ["data analysis", "pandas", "data visualization", "eda", "reporting", "python", "statistics"]
+tech_stack: ["Python", "Pandas", "Matplotlib", "Seaborn", "Plotly", "ydata-profiling", "Statsmodels", "Docker"]
+order: 2
+hero_image: ""
+gallery: []
+video: ""
+demo_url: ""
+repo_url: "https://github.com/your_github/data-analytics-examples"

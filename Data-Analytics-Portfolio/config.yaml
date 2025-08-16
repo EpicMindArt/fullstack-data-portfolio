@@ -1,0 +1,25 @@
+# ==============================================================================
+# Central configuration file for all data analysis pipelines.
+# To run an analysis, use: python main.py <project_key>
+# Example 1 for analyses: python main.py restaurant_sales -p
+# Example 2: python main.py restaurant_sales
+# ==============================================================================
+
+restaurant_sales:
+  description: "End-to-end analysis of restaurant sales data."
+  input_file: "data/[01] Restaurant Sales Data.csv"
+  analysis_module: "analyses.restaurant_sales" # You will create this file later
+  output_dir: "Restaurant_Sales_Analysis"
+
+airlines_flights:
+  description: "Analysis of airline flight data."
+  input_file: "data/[02] Airlines Flights Data.csv"
+  analysis_module: "analyses.airlines_flights" # You will create this file later
+  output_dir: "Airlines_Flights_Analysis"
+
+employers_data:
+  description: "Analysis of employers data."
+  input_file: "data/[03] Employers Data.csv"
+  analysis_module: "analyses.employers_data" # You will create this file later
+  output_dir: "Employers_Data_Analysis"
+

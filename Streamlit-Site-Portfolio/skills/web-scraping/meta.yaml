@@ -1,0 +1,17 @@
+name: 
+  en: "Web Data Extraction"
+  ru: "Извлечение данных из сайтов"
+  ua: "Вилучення даних із сайтів"
+category: "web_scraping"
+summary: 
+  en: "A resilient framework for extracting data from any website, including dynamic (JavaScript) sites, sites with anti-bot protection, and those requiring login."
+  ru: "Устойчивый фреймворк для извлечения данных с любых сайтов, включая динамические (JavaScript), с антибот-защитой и требующие авторизации."
+  ua: "Стійкий фреймворк для вилучення даних з будь-яких сайтів, включаючи динамічні (JavaScript), із антибот-захистом та ті, що вимагають авторизації."
+tags: ["web scraping", "data extraction", "python", "playwright", "requests", "beautifulsoup", "automation"]
+tech_stack: ["Python", "Playwright", "Requests", "BeautifulSoup4", "SQLite", "Docker"]
+order: 2
+hero_image: ""
+gallery: []
+video: ""
+demo_url: ""
+repo_url: "https://github.com/your_github/data-analytics-examples"

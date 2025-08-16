@@ -1,0 +1,58 @@
+# ===============================================
+# Global .gitignore for OleksiiPortfolio Monorepo
+# ===============================================
+
+# --- IDE Settings ---
+# Ignores editor-specific configuration files.
+# Project-specific settings should be committed if needed (e.g., .vscode/settings.json),
+# but local user settings should be ignored.
+.idea/
+.vscode/
+# Keep settings.json if it contains project-wide configurations
+!.vscode/settings.json
+
+# --- OS Generated Files ---
+# Ignore OS-specific metadata files.
+.DS_Store
+Thumbs.db
+._*
+
+# --- Python General ---
+# These rules are common for all Python projects. While they can be in each
+# sub-project, having them here reduces duplication.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.env
+
+# --- Global Environment Files ---
+# Ignore local environment files. Example files should be versioned.
+.env.*
+!.env.example
+
+# --- Global Logs ---
+# Ignore log files at the root level.
+*.log

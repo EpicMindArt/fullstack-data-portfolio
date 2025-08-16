@@ -1,0 +1,32 @@
+site:
+  site_name: "Portfolio: Oleksii Y."
+  tagline: "Data • Automation • Bots"
+  author: ""
+  nickname: "Oleksii Y."
+
+ui:
+  language: "Language"
+  navigation: "Navigation"
+  category: "Category"
+  all_categories: "All Categories"
+  search: "Search by name or tags..."
+  tags: "Tags"
+  select_skill: "Choose a skill"
+  summary: "Summary"
+  my_skills: "My Skills"
+  view_details: "View Details"
+  completed_orders: "Completed Orders"
+  tech_stack: "Tech Stack"
+  demo: "Demo"
+  repo: "Repository"
+  gallery: "Gallery"
+  video: "Video"
+
+categories:
+  development: "Development"
+  automation: "n8n Automation"
+  analytics: "Data Analytics"
+  media: "Media"
+  misc: "Miscellaneous"
+  telegram_bots: "Telegram Bots"
+  web_scraping: "Web Data Extraction"
